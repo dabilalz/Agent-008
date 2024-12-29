@@ -16,19 +16,67 @@
             align-items: center;
             min-height: 100vh;
         }
-        h1 {
+        h1, h2 {
             text-shadow: 0 0 10px #00ff00;
+        }
+        h1 {
             font-size: 2.5em;
+        }
+        h2 {
+            font-size: 1.8em;
+            margin-top: 30px;
         }
         p {
             font-size: 1.2em;
             text-align: center;
             max-width: 600px;
         }
+        .section {
+            background-color: #2a2a2a;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            width: 80%;
+            max-width: 800px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+            padding: 10px;
+            border-left: 3px solid #00ff00;
+            background-color: #1a1a1a;
+        }
     </style>
 </head>
 <body>
     <h1>Welcome to Agent 008</h1>
-    <p>Top secret information coming soon...</p>
+    
+    <div class="section">
+        <h2>Mission Objectives</h2>
+        <ul>
+            <li>Infiltrate target location without detection</li>
+            <li>Secure classified documents from the vault</li>
+            <li>Extract safely with minimal engagement</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Agent Profile</h2>
+        <p>Codename: Agent 008</p>
+        <p>Specialization: Covert Operations</p>
+        <p>Clearance Level: Ultra</p>
+    </div>
+
+    <div class="section">
+        <h2>Contact Protocols</h2>
+        <ul>
+            <li>Emergency Contact: Channel Delta</li>
+            <li>Extraction Point: Location Zulu</li>
+            <li>Communication Window: 2300-0100 UTC</li>
+        </ul>
+    </div>
 </body>
 </html>
